@@ -1,12 +1,15 @@
-
+navsec{
+  
+}
 /* Auth Section Layout */
 .auth-section {
+  user-select: none;
   min-height: 100%;
   display: flex;
   align-items: right;
   justify-content: right;
   padding: 2rem 5rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(#9db2bf 0%, #ced9df 50%, #9db2bf 100%);
 }
 
 .auth-container {
