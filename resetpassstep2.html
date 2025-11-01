@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sign In - JobHive</title>
+  <title>Reset Password - JobHive</title>
   <link rel="stylesheet" href="landingpage.css">
-  <link rel="stylesheet" href="auth.css">
   <link rel="stylesheet" href="navbarforall.css">
+  <link rel="stylesheet" href="resetpass-css4allstep.css">
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -26,38 +26,26 @@
   </nav>
  
 
-  <!-- Sign In Section -->
-  <section class="auth-section">
-    <!-- Left: Sign-in card -->
-    <div class="auth-card">
+  <!-- reset Section -->
+  <section class="reset-section">
+    <!-- Left: reset card -->
+    <div class="reset-card">
       <div class="website-logo">
         <a href="index.html#frontpage"><img src="jobhive logo.png" alt="JobHive Logo"></a>
       </div>
 
-      <h1 class="auth-title">Welcome to JobHive</h1>
-      <p class="auth-subtitle">Sign in to continue your career journey</p>
+      <h1 class="reset-title">Reset Password</h1>
+      <p class="reset-subtitle">Enter the 6-digit password sent to your email.</p>
 
-      <form class="auth-form" action="#">
+      <form class="reset-form" action="resetpassstep3.html">
         <div class="form-group">
-          <input type="email" id="email" placeholder="Email address" required>
+          <input type="text" id="text" placeholder="Verification Code" required> <!-- palitan ng for verification code  -->
         </div>
 
-        <div class="form-group">
-          <input type="password" id="password" placeholder="Password" required>
-        </div>
+        <button type="submit" class="btn-submit">Verify Code</button>
 
-        <div class="form-options">
-          <label class="checkbox-label">
-            <input type="checkbox" id="remember">
-            <span>Remember me</span>
-          </label>
-          <a href="resetpass.html" class="forgot-link">Forgot password?</a>
-        </div>
-
-        <button type="submit" class="btn-submit">Sign in</button>
-
-        <p class="create-text">
-          New to JobHive? <a href="sign-up.html">Create an account</a>
+        <p class="backtosignin-text">
+          <a href="resetpass.html"> didn't received a code?  Use another different email.</a>
         </p>
       </form>
     </div>
@@ -65,12 +53,11 @@
     <!-- Right: Info section -->
     <div class="info-section">
       <div class="platform-tag">
-         <img src="jobhive logo.png" alt="JobHive Logo">
+         <a href="index.html#frontpage"><img src="jobhive logo.png" alt="JobHive Logo"></a>
          <span>JobHive Platform</span>
       </div>
-
-      <h1>Find Your Dream Job Today</h1>
-      <p>Connect with thousands of employers and discover opportunities that match your skills and aspirations.</p>
+      <h1>Secure Account Recovery</h1> <!-- try gawin h1  -->
+      <p>Your account security is our priority. We'll help you regain access quickly and safely.</p>
     </div>
   </section>
 </section>
